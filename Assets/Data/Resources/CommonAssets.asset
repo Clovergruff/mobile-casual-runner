@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e66f8323769c6129b9064ce38830d63, type: 3}
+  m_Name: CommonAssets
+  m_EditorClassIdentifier: 
+  layerMasks:
+    solid:
+      serializedVersion: 2
+      m_Bits: 1048577
+    ground:
+      serializedVersion: 2
+      m_Bits: 1
+    pawns:
+      serializedVersion: 2
+      m_Bits: 64
+    triggers:
+      serializedVersion: 2
+      m_Bits: 1024
+  audio:
+    hit: {fileID: 0}
+    swingWeapon: {fileID: 0}
+    jump: {fileID: 0}
+    land: {fileID: 0}
+    menuSelect: {fileID: 0}
+    menuAccept: {fileID: 0}
+    menuDecline: {fileID: 0}
+  materials:
+    hitFlash: {fileID: 0}
+  physicMaterials:
+    gibs: {fileID: 13400000, guid: d4b3fd6cad53b0f4fbea38057287512b, type: 2}
+  levelPrefabs:
+  - {fileID: 8891999052766759298, guid: 81523d8f2fd9e494b8d60dae33a5244a, type: 3}
+  - {fileID: 251953653708535432, guid: 42409087ecb0b5e47893ea7ac5912253, type: 3}

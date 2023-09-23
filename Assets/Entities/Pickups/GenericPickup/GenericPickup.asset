@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8423656f0affc54fb9897c81a332e55, type: 3}
+  m_Name: GenericPickup
+  m_EditorClassIdentifier: 
+  components:
+  - {fileID: 11400000, guid: 32443a5783e3f5c4da3dbe2a27542934, type: 2}
+  - {fileID: 11400000, guid: 928ac0527631b0b43b9dc9034ff97aaa, type: 2}
+  - {fileID: 11400000, guid: 0b1584065f9b4044d9b112d43706e768, type: 2}
+  - {fileID: 11400000, guid: 0e36f6fa00fa0794dabf83b7861850d0, type: 2}
+  - {fileID: 11400000, guid: cd096e6973b07064e8bb49f1c8b23505, type: 2}
